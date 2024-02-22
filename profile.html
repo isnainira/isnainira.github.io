@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFIL SAYA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo animate__animated animate__fadeInRight ">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Arifiyanti</div>
+                </div>
+                   <nav>
+                       <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                       </div>
+                       <ul class="navlinks">
+                        <li><a href="profil.html"></a></li>
+                        <li><a href="#social">ABOUT ME</a></li>
+
+                        
+
+                    </ul>
+                   </nav>
+            </header>
+               <div class="container">
+                  <div class="hero-pic">
+                    <img src="meee.jpg" alt="profil pic">
+                  </div>
+                  <div class="hero-text animate__animated animate__fadeInLefts  ">
+                    <h5><span class="input"> HALO</span></h5>
+                    <h1></h1>
+                    <p>Saya seorang pelajar siswi SMKN 1 DLANGGU jurusan RPL.Saya masih duduk dibangku kelas 11.Saya sedang menjalani PKL di PANDORADEV.
+                    </p>
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Masuk</a>
+                        <!-- <a href="#" class="btn active">Contact</a> --> 
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.tiktok.com/@isnanxjsj?_t=8jfePh3qsiI&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="whatsapp://send?text=HAI&phone=+6285808482632"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/nhaaainirshd?igsh=MTAwbGRja2JhbTNrbw=="><i class="fa-brands fa-instagram"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-dribble"></i></a>
+                        <a href="#"><i class="fa-brands fa-pintrest"></i></a> -->
+                     </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script> -->
+        <div id="social">
+        <div class="hero-header">
+            <div class="wrapper">
+             <header>
+               <!-- <div class="logo">
+                   <i class="fa-solid fa-a"></i>
+                   <div class="logo-text">Arifiyanti</div>
+               </div> -->
+                  <nav>
+                      <div class="togglebtn">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                      </div>
+                      <ul class="navlinks">
+                       <li><a href="profile.html">HOME</a></li>
+                       <li class="current"><a href="social.html">ABOUT ME</a></li>
+                       <!-- <li><a href="#">Portfolio</a></li>
+                       <li><a href="#">Resume</a></li> 
+                       <li><a href="#">Blog</a></li>  -->
+                       
+       
+                   </ul>
+                  </nav>
+             </header>
+             <section>
+                   <div class="about">
+                      <div class="main">
+                          <img src="aiiii.jpg" alt="">
+                          <div class="about-text">
+                              <h1>ABOUT ME</h1><br>
+                              <h5>Hi <span> Everyone, </span></h5>
+                              <p>Nama saya Isnaini Roshida Arifiyanti,biasa dipanggil Isna dan tepatnya saya masih umur 17 duduk dibangku kelas 11.Saya seorang pelajar di SMKN 1 DLANGGU,kebetulan saya mempunyai hobi yaitu membaca 
+                               dan mendengarkan musik. Saya suka dengan musik,melakukan kegiatan apapun harus mendengarkan musik agar
+                               lebih bersemangat.Saya juga mempunyai cita cita yang dulunya mau jadi  dokter,sekarang pingin jadi progammer,ya karena saya sekolah di SMK jurusan RPL bukan di SMA dan mau membahagiakan ortu saya yang dulu berjuang buat saya sekolah dari TK sampai saya lulus SMK nanti.
+                              </p>    
+                          </div>
+                          
+                      </div>
+                   </div>
+                  </section>
+                  
+            </div>
+           </div>
+        </div>
+        <script>
+                                               
+            var togglebtn=document.querySelector(".togglebtn");
+            var nav=document.querySelector(".navlinks");
+            var links=document.querySelector(".navlinks li");
+
+            togglebtn.addEventListener("click",function(){
+                this.classList.toggle("click");
+                nav.classList.toggle("open");
+            })
+            var typed=new Typed(".input",{
+                String:["Froontend Developer", "UX Designer", "Web Developer"],
+                typedSpeed:70,
+                backSpeed:55,
+                loop : true
+            })
+        </script>
+    </body>
+</html>
